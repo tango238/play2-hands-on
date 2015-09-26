@@ -1,4 +1,28 @@
-This is your new Play application
-=================================
+ここをみて練習
 
-This file will be packaged with your application, when using `activator dist`.
+https://github.com/bizreach/play2-hands-on/
+
+
+調べること
+
+- [] `A <:< B` と `A <: B` の違い
+- [] `A =:= B` は equals？
+- [] `@implicitNotFound`
+- [] `ArrowAssoc`
+- [] `LowPriorityImplicits`
+- [] `@inline`
+- [] `private[scala]`はバイトコードでは public になる。どういう風に使されているの？
+- [] `@elidable` ...  `scalac -Xelide-below INFO` のように使い、コンパイル時に不要なメソッドを含めないといったことができる
+- [] `ensuring` ... design-by-contract style ？
+
+
+
+### Annotations
+
+@getter
+@setter
+@beanGetter
+@beanSetter
+@inline
+
+scala.annotation.StaticAnnotation
